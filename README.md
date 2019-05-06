@@ -1,43 +1,34 @@
-# node-csgo-reportbot
+# reportbot
+Node Report Bot 
 
-A node-steam plugin for reporting players in Counter-Strike: Global Offensive.<br>
-Demo: http://report-service.xyz
+1) Download and install   `Node.JS `   [nodejs.org](https://nodejs.org/en/)
+2) Open `cmd.exe ` 
+3) Run `npm install `
 
-## Requirements
+## Usage:
+`npm start or node bot.js  ` 
 
-| Prerequisite    | How to check | How to install
-| --------------- | ------------ | ------------- |
-| Node.js 0.12.x  | `node -v`    | [nodejs.org](http://nodejs.org/) |
+*you will be prompted to enter the target player's SteamID64*
 
-Additionally, you will need at least one Steam account with CS:GO, and Steamguard must be deactivated.
+## Updating Protocol Definitions:
+`npm run update `
 
-## Installation
+## Note:
 
-1. Download the latest [stable](https://github.com/Askwrite/node-csgo-reportbot/releases/latest) or [development](https://github.com/Askwrite/node-csgo-reportbot/archive/master.zip) version of this package.
-2. Run `npm install` from your terminal
-3. rename `accounts.example.txt` to `accounts.txt` and modify it with your account credentials. You may enter multiple accounts.
-
-## Usage
-
-```
-npm start
-```
-
-You will be prompted to enter the target player's SteamID64
-
-![](http://i.imgur.com/PPEIPx8.png)
-
-### Updating Protocol Definitions
-
-```
-npm run update
-```
-
-## Note
-Don't kill the process by yourself!<br>
+**Don't kill the process by yourself!
 The process will be killed automatically after it finished to report the target with all the accounts.
 
-## Credits
+## Additionally:
 
-* Based on [node-steam](https://github.com/seishun/node-steam) by [seishun](https://github.com/seishun)
-* Trololo for the idea
+you can create a file report.bat and write `node bot.js` 
+and `pause` *o prevent the window from closing automatically when finished*
+
+## Accounts: 
+*you can use the generator accounts with the game counter-strike global offensive or other games*
+[Steam-Account-Generator](https://github.com/EarsKilla/Steam-Account-Generator).
+
+## Credits:
+
+Based on [node-steam ](https://github.com/seishun/node-steam)
+
+Reportbot by [Askwrite](https://github.com/Askwrite/node-csgo-reportbot)
