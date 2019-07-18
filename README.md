@@ -1,4 +1,4 @@
-# reportbot
+# Report Bot
 Node Report Bot 
 
 1) Download and install   `Node.JS `   [nodejs.org](https://nodejs.org/en/)
