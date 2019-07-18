@@ -149,4 +149,4 @@ function sendReport(GC, Client, account_name) {
 
 process.on("uncaughtException", function(err) {});
 
-console.log("Initializing ReportBot by askwrite...\nCredits: Trololo - Idea");
+console.log("Initializing ReportBot by askwrite...[update by despa1r]\nCredits: Trololo - Idea");
