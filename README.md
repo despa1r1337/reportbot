@@ -16,7 +16,7 @@ Node Report Bot
 ## Note:
 
 *Don't kill the process by yourself!
-The process will be killed automatically after it finished to report the target with all the accounts.
+The process will be killed automatically after it finished to report the target with all the accounts*.
 
 ## Additionally:
 
