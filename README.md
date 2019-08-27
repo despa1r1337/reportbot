@@ -6,7 +6,7 @@ Node Report Bot
 3) Run `npm install `
 
 ## Usage:
-`npm start or node bot.js  ` 
+`npm start` or `node bot.js ` 
 
 *you will be prompted to enter the target player's SteamID64*
 
@@ -20,7 +20,7 @@ The process will be killed automatically after it finished to report the target 
 
 ## Additionally:
 
-you can create a file report.bat and write `node bot.js` 
+you can create a file `report.bat` and write `node bot.js` 
 and `pause` *o prevent the window from closing automatically when finished*
 
 ## Accounts: 
