@@ -73,11 +73,6 @@ function processSteamReport(element, indexElement, array) {
                     SteamClients[indexElement].disconnect();
                     process.exit();
                 } else {
-                    CountReports++;
-                    if (CountReports == size) {
-                        console.log("\n\n" + CountReports + " Reports for this faggot.\nThanks for using this Service!");
-                        process.exit();
-                    }
                     console.log("\n[STEAM CLIENT (" + account_name.substring(0, 4) + "**) - Login failed!" + res.eresult);
                     SteamClients[indexElement].disconnect();
                     SteamClients.splice(indexElement, 1);
@@ -117,10 +112,6 @@ function processSteamReport(element, indexElement, array) {
         SteamClients[indexElement].on("error", function(err) {
             console.log("[STEAM CLIENT - " + indexElement + "] Account is probably ingame! Logged out!\n" + err);
             size = size - 1;
-            if (CountReports == size) {
-                console.log("\n\n" + CountReports + " Reports for this faggot.\nThanks for using this Service!");
-                process.exit();
-            }
             SteamClients[indexElement].disconnect();
             SteamClients.splice(indexElement, 1);
             SteamFriends.splice(indexElement, 1);
@@ -146,7 +137,7 @@ function processSteamReport(element, indexElement, array) {
                     CountReports++;
                     console.log("[Report Bot [FREE] [despa1r] - (" + CountReports + ")] Report with confirmation ID: " + Protos.CMsgGCCStrike15_v2_ClientReportResponse.decode(buffer).confirmationId.toString() + " sent!");
                     if (CountReports == size) {
-                        console.log("\n\n" + CountReports + " Reports for this faggot.\nThanks for using this Service!");
+                        console.log("\n\n" + CountReports + " Reports for this faggot.\nThanks for using Report Bot by despa1r!");
                     }
                     SteamClients[indexElement].disconnect();
                     SteamClients.splice(indexElement, 1);
