@@ -6,7 +6,7 @@ Node Report Bot
 3) Run `npm install `
 
 ## Usage:
-`npm start` or `node bot.js ` 
+`node bot.js ` 
 
 *you will be prompted to enter the target player's SteamID64*
 
