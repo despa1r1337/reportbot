@@ -1,3 +1,5 @@
+## I will support this project until it is officially fixed. At the moment, everything is working as usual✔
+
 # Report Bot
 Node Report Bot 
 
