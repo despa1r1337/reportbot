@@ -12,7 +12,8 @@ Node Report Bot
 `node bot.js ` 
 
 *you will be prompted to enter the target player's SteamID64*
-*This Report Bot does not support  `MatchID`
+
+*This Report Bot does not support*  `MatchID`
 
 ## Updating Protocol Definitions:
 `npm run update `
