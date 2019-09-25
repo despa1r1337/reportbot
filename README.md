@@ -1,8 +1,6 @@
 ## I will support this project until it is officially fixed. At the moment, everything is working as usual✔
 
 
-## This Report Bot does not support  `MatchID`
-
 # Report Bot
 Node Report Bot 
 
@@ -14,6 +12,7 @@ Node Report Bot
 `node bot.js ` 
 
 *you will be prompted to enter the target player's SteamID64*
+## This Report Bot does not support  `MatchID`
 
 ## Updating Protocol Definitions:
 `npm run update `
