@@ -15,6 +15,11 @@ var fs = require("fs"),
     ClientHello = 4006,
     ClientWelcome = 4004;
 
+if ((steamID == "") || !(steamID.indexOf("765") > -1) || (steamID.length < 17)) {
+        console.log("That's not a valid SteamID64!");
+        process.exit();
+    }
+
 var accounts = [];
 
 var arrayAccountsTxt = fs.readFileSync("accounts.txt").toString().split("\n");
