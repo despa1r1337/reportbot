@@ -15,7 +15,7 @@ Node Report Bot
 *This Report Bot does not support*  `MatchID`
 
 ## Updating Protocol Definitions:
-`npm run update `
+Open `Updating Protocol Definitions.bat ` *after updating, the console closes itself*
 
 ## Note:
 
