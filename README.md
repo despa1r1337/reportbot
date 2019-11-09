@@ -23,7 +23,7 @@ Open `Updating Protocol Definitions.bat ` *after updating, the console closes it
 The process will be killed automatically after it finished to report the target with all the accounts*.
 
 ## Accounts: 
-*you can use the generator accounts with the game counter-strike global offensive or other games*
+*you can use the generator accounts with the game counter-strike global offensive*
 [Steam-Account-Generator](https://github.com/EarsKilla/Steam-Account-Generator)
 
 ## Credits:
