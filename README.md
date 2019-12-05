@@ -1,4 +1,4 @@
-## I will support this project until it is officially fixed. At the moment, everything is working as usual✔
+## Report Bot is currently not working. Expect
 
 
 # Report Bot
