@@ -1,4 +1,4 @@
-## Report Bot is currently not working. Expect
+## New Report Bot https://github.com/despa1r1337/ReportBot-v2
 
 
 # Report Bot
