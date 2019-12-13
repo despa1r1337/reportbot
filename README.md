@@ -27,8 +27,12 @@ The process will be killed automatically after it finished to report the target 
 [Steam-Account-Generator](https://github.com/EarsKilla/Steam-Account-Generator)
 
 ## Credits:
+main script by [Askwrite](https://github.com/Askwrite) 
+
+Updated by [despa1r ](https://github.com/despa1r1337)
 
 Based on [node-steam ](https://github.com/seishun/node-steam)
+
 
 ## Help
 *If you have any problems with my project, then please open the* [issue](https://github.com/despa1r1337/reportbot/issues)
